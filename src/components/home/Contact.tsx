@@ -65,7 +65,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* TARJETA 3: GOOGLE MAPS REAL */}
+          {/* TARJETA 3: GOOGLE MAPS CORREGIDO */}
           <div className="flex flex-col items-center justify-center p-8 border border-cyan-500/20 bg-[#07111f]/50 rounded-2xl backdrop-blur-sm shadow-[0_4px_30px_rgba(0,0,0,0.3)] text-center">
             <h3 className="text-xl font-bold text-white mb-2">¿Dónde estamos?</h3>
             <p className="text-xs text-gray-400 mb-6">Ubicación de nuestro laboratorio</p>
