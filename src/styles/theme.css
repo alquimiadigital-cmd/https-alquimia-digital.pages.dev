@@ -1,0 +1,22 @@
+:root {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-sans);
+  --color-background: #060816;
+  --color-surface: #111827;
+  --color-text: #f8fafc;
+  --color-muted: #94a3b8;
+  --color-accent: #4f8cff;
+  --color-border: rgba(148, 163, 184, 0.2);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
