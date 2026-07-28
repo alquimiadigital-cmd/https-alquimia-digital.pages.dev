@@ -6,25 +6,29 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-cyan-500/20 bg-[#050b14]/90 backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.5)]">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         
-        {/* LOGO Y TÍTULO */}
-        <Link href="/" className="flex items-center gap-3">
-          <Image
-            src="/logo.png"
-            alt="Alquimia Digital"
-            width={52}
-            height={52}
-            priority
-            className="rounded-full border border-cyan-500/30"
-          />
-          <div>
-            <h1 className="text-lg md:text-xl font-extrabold tracking-wider text-white">
+                {/* LOGO Y TÍTULO */}
+        <Link href="/" className="flex items-center gap-3 group shrink-0">
+          <div className="relative h-14 w-14 flex-shrink-0 overflow-hidden rounded-full border border-cyan-500/30 transition duration-300 group-hover:border-cyan-400 group-hover:shadow-[0_0_15px_rgba(6,182,212,0.5)]">
+            <Image
+              src="/logo.png"
+              alt="Alquimia Digital"
+              fill
+              priority
+              className="object-cover"
+              sizes="56px"
+            />
+          </div>
+
+          <div className="flex flex-col justify-center">
+            <h1 className="text-base md:text-lg font-black tracking-wider text-white font-sans leading-none">
               ALQUIMIA <span className="text-cyan-400">DIGITAL</span>
             </h1>
-            <p className="text-[10px] uppercase tracking-[0.25em] text-gray-400 font-medium">
+            <p className="text-[9px] uppercase tracking-[0.2em] text-gray-400 font-medium mt-1 leading-none">
               Servicio Técnico Profesional
             </p>
           </div>
         </Link>
+
 
         {/* MENÚ DE NAVEGACIÓN DIRECTO */}
         <nav className="hidden xl:flex items-center gap-6">
