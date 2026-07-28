@@ -65,7 +65,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* TARJETA 3: BOTÓN DE UBICACIÓN PREMIUM (SIN IFRAME) */}
+          {/* TARJETA 3: BOTÓN DE UBICACIÓN CORREGIDO */}
           <div className="flex flex-col justify-between p-8 border border-cyan-500/20 bg-[#07111f]/50 rounded-2xl backdrop-blur-sm shadow-[0_4px_30px_rgba(0,0,0,0.3)] text-center">
             <div>
               <h3 className="text-xl font-bold text-white mb-2">¿Dónde estamos?</h3>
@@ -79,7 +79,7 @@ export default function Contact() {
               </div>
               
               <p className="text-xs text-gray-400 px-2 mt-4">
-                Hacé clic abajo para abrir las indicaciones de navegación directo en tu aplicación de mapas.
+                Hacé clic abajo para abrir la ubicación exacta y trazar la ruta en tu aplicación de mapas.
               </p>
             </div>
 
