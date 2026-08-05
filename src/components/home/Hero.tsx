@@ -54,30 +54,30 @@ export default function Hero() {
 
           </div>
 
-          <div className="mt-12 grid grid-cols-3 gap-8 border-t border-gray-800 pt-8">
+        <div className="mt-12 grid grid-cols-3 gap-8 border-t border-gray-800 pt-8">
 
-            <div>
-              <h3 className="text-3xl font-black text-cyan-400">30+</h3>
-              <p className="mt-1 text-xs text-gray-400">
-                Años de experiencia
-              </p>
-            </div>
+  <div>
+    <h3 className="text-3xl font-black text-cyan-400">20+</h3>
+    <p className="mt-1 text-xs text-gray-400">
+      Años de experiencia
+    </p>
+  </div>
 
-            <div>
-              <h3 className="text-3xl font-black text-cyan-400">1000+</h3>
-              <p className="mt-1 text-xs text-gray-400">
-                Equipos reparados
-              </p>
-            </div>
+  <div>
+    <h3 className="text-3xl font-black text-cyan-400">Miles</h3>
+    <p className="mt-1 text-xs text-gray-400">
+      Reparaciones exitosas
+    </p>
+  </div>
 
-            <div>
-              <h3 className="text-3xl font-black text-cyan-400">100%</h3>
-              <p className="mt-1 text-xs text-gray-400">
-                Atención personalizada
-              </p>
-            </div>
+  <div>
+    <h3 className="text-3xl font-black text-cyan-400">100%</h3>
+    <p className="mt-1 text-xs text-gray-400">
+      Atención personalizada
+    </p>
+  </div>
 
-          </div>
+</div>
         </div>
 
         {/* Imagen */}
